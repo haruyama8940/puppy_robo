@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>puppy_robo</name>
+  <version>0.0.0</version>
+  <description>The puppy_robo package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="rdclab@todo.todo">rdclab</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>puppy_robo_bringup</build_depend>
+  <build_depend>puppy_robo_descripttion</build_depend>
+  <build_depend>puppy_robo_teleop</build_depend>
+  <export><metapackage/></export>
+</package>
